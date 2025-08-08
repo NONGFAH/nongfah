@@ -1,20 +1,20 @@
 ## Abstract
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username=loks666&show_icons=true&hide_border=true&v=20250808180936" alt="loks666's Github Stats" width="58%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=loks666&layout=compact&hide_border=true&langs_count=10&v=20250808180936" alt="loks666's Top Langs" width="37%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=loks666&show_icons=true&hide_border=true&v=20250808181855" alt="loks666's Github Stats" width="58%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=loks666&layout=compact&hide_border=true&langs_count=10&v=20250808181855" alt="loks666's Top Langs" width="37%" />
 </p>
 
 <!-- 活跃度图 -->
 <p>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=loks666&theme=github&v=20250808180936" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=loks666&theme=github&v=20250808181855" width="100%" />
 </p>
 
 <!-- 奖杯墙 -->
 <p>
-  <img src="https://github-profile-trophy.vercel.app/?username=loks666&theme=gruvbox&row=1&column=7&v=20250808180936" width="100%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=loks666&theme=gruvbox&row=1&column=7&v=20250808181855" width="100%" />
 </p>
 
-![skills](https://skillicons.dev/icons?i=java,js,css,vue,go,ts,html,kotlin,php,cpp,cs)
+![skills](https://skillicons.dev/icons?i=python,java,javascript,css,vue,go,typescript,html,kotlin,php,c++,c#&v=20250808181857)
 
 ## Top Projects
 |Project|Description|Stars|
@@ -34,7 +34,7 @@
 ## Recent Updates
 |Project|Description|Last Update|
 |:--|:--|:--|
-|[loks666 (fork)](https://github.com/loks666/loks666)|Automatically update your GitHub profile with GitHub Actions.|![2025-08-08 10:09:08](https://img.shields.io/badge/2025--08--08-10%3A09%3A08-brightgreen?style=flat-square)|
+|[loks666 (fork)](https://github.com/loks666/loks666)|Automatically update your GitHub profile with GitHub Actions.|![2025-08-08 10:18:00](https://img.shields.io/badge/2025--08--08-10%3A18%3A00-brightgreen?style=flat-square)|
 |[get_jobs](https://github.com/loks666/get_jobs)|💼【AI找工作助手】全平台自动投简历脚本：(boss、前程无忧、猎聘、拉勾、智联招聘)|![2025-08-07 20:59:04](https://img.shields.io/badge/2025--08--07-20%3A59%3A04-brightgreen?style=flat-square)|
 |[py_tools](https://github.com/loks666/py_tools)|分享自己写的一些小工具|![2025-05-12 07:34:00](https://img.shields.io/badge/2025--05--12-07%3A34%3A00-brightgreen?style=flat-square)|
 |[FinancialMachineLearning](https://github.com/loks666/FinancialMachineLearning)|该项目利用资本资产定价模型（CAPM）和均值方差优化（MVO），通过二次规划来构建最优投资组合，以最小化风险并最大化收益。|![2025-04-23 08:57:36](https://img.shields.io/badge/2025--04--23-08%3A57%3A36-brightgreen?style=flat-square)|
@@ -46,4 +46,4 @@
 |[RL-MiniGames](https://github.com/loks666/RL-MiniGames)|Reinforcement learning mini-game|![2024-11-14 15:10:34](https://img.shields.io/badge/2024--11--14-15%3A10%3A34-brightgreen?style=flat-square)|
 
 
-*Last updated on: 2025-08-08 18:09:36*
+*Last updated on: 2025-08-08 18:18:55*
