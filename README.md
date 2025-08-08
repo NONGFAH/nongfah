@@ -1,7 +1,7 @@
 ## Abstract
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username=songquanpeng&show_icons=true&hide_border=true" alt="JustSong's Github Stats" width="58%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=songquanpeng&layout=compact&hide_border=true&langs_count=10" alt="JustSong's Top Langs" width="37%" /> 
+  <img src="https://github-readme-stats.vercel.app/api?username=loks666&show_icons=true&hide_border=true" alt="GeneralFly's Github Stats" width="58%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=loks666&layout=compact&hide_border=true&langs_count=10" alt="GeneralFly's Top Langs" width="37%" /> 
 </p>
 
 <a href="https://github.com/songquanpeng/stats-cards">
@@ -17,31 +17,31 @@
 ## Top Projects
 |Project|Description|Stars|
 |:--|:--|:--|
-|[one-api](https://github.com/songquanpeng/one-api)|LLM API 管理 & 分发系统，支持 OpenAI、Azure、Anthropic Claude、Google Gemini、DeepSeek、字节豆包、ChatGLM、文心一言、讯飞星火、通义千问、360 智脑、腾讯混元等主流模型，统一 API 适配，可用于 key 管理与二次分发。单可执行文件，提供 Docker 镜像，一键部署，开箱即用。LLM API management & key redistribution system, unifying multiple providers under a single API. Single binary, Docker-ready, with an English UI.|`26463⭐`|
-|[message-pusher](https://github.com/songquanpeng/message-pusher)|搭建专属于你的消息推送服务，支持多种消息推送方式，支持 Markdown，基于 Golang 仅单可执行文件，开箱即用|`3220⭐`|
-|[go-file](https://github.com/songquanpeng/go-file)|基于 Go 的文件分享工具，仅单可执行文件，开箱即用，内置图床和视频播放页面. File sharing tool based on Go.|`1069⭐`|
-|[pytorch-template](https://github.com/songquanpeng/pytorch-template)|To be the world's best PyTorch project template.|`512⭐`|
-|[wechat-server](https://github.com/songquanpeng/wechat-server)|微信公众号的后端，为其他系统提供微信登录验证功能|`462⭐`|
-|[gin-template](https://github.com/songquanpeng/gin-template)|用于 Gin & React 项目的模板. Template for Gin & React projects.|`348⭐`|
-|[stats-cards](https://github.com/songquanpeng/stats-cards)|在 README 中展示你在知乎，GitHub，B 站，LeetCode，掘金，CSDN，牛客等网站的数据，也可用于服务状态监控. Show your LeetCode & GitHub stats in GitHub Profile.|`324⭐`|
-|[pronunciation-corrector](https://github.com/songquanpeng/pronunciation-corrector)|拯救你的英语发音，告别因发音错误带来的尴尬！|`248⭐`|
-|[blog](https://github.com/songquanpeng/blog)|基于 Node.js 的个人博客系统. Node.js based blog system.|`70⭐`|
-|[pytorch-deployment](https://github.com/songquanpeng/pytorch-deployment)|A template for rapid deployment of PyTorch models.|`67⭐`|
+|[get_jobs](https://github.com/loks666/get_jobs)|💼【AI找工作助手】全平台自动投简历脚本：(boss、前程无忧、猎聘、拉勾、智联招聘)|`2232⭐`|
+|[niubaide_im](https://github.com/loks666/niubaide_im)|牛掰的即时通讯(Uniapp + SpringBoot + Netty)|`29⭐`|
+|[webchat](https://github.com/loks666/webchat)|一个聊天应用|`22⭐`|
+|[disease-prediction](https://github.com/loks666/disease-prediction)|疾病预测分析系统旨在利用现代数据分析技术和机器学习算法，帮助医疗机构和研究人员对疾病的发生和发展进行预测和分析，从而提高疾病防控和治疗的效率。该系统主要包括数据收集与处理、模型训练与评估、以及预测结果展示等模块。|`14⭐`|
+|[ruyun_library](https://github.com/loks666/ruyun_library)|【如云图书馆】基于Django框架+Mysql开发的图书管理系统|`8⭐`|
+|[NewsRecommends](https://github.com/loks666/NewsRecommends)|通过Python实现新浪新闻的爬取，可爬取新闻页面上的标题、文本、图片、视频链接（保留排版） 推荐算法：权重衰减+标签推荐+区域推荐+热点推荐|`5⭐`|
+|[yolov5-5.0](https://github.com/loks666/yolov5-5.0)|📚深度学习之识别交通标志|`5⭐`|
+|[FinancialMachineLearning](https://github.com/loks666/FinancialMachineLearning)|该项目利用资本资产定价模型（CAPM）和均值方差优化（MVO），通过二次规划来构建最优投资组合，以最小化风险并最大化收益。|`3⭐`|
+|[niubaide_im_ByWeb](https://github.com/loks666/niubaide_im_ByWeb)|niubaide_im_ByWeb|`3⭐`|
+|[gan_fixed_img](https://github.com/loks666/gan_fixed_img)|gan对抗网络修复破损图片|`2⭐`|
 
 ## Recent Updates
 |Project|Description|Last Update|
 |:--|:--|:--|
-|[songquanpeng](https://github.com/songquanpeng/songquanpeng)|Automatically update your GitHub profile with GitHub Actions.|![2025-07-27 20:45:37](https://img.shields.io/badge/2025--07--27-20%3A45%3A37-brightgreen?style=flat-square)|
-|[one-api](https://github.com/songquanpeng/one-api)|LLM API 管理 & 分发系统，支持 OpenAI、Azure、Anthropic Claude、Google Gemini、DeepSeek、字节豆包、ChatGLM、文心一言、讯飞星火、通义千问、360 智脑、腾讯混元等主流模型，统一 API 适配，可用于 key 管理与二次分发。单可执行文件，提供 Docker 镜像，一键部署，开箱即用。LLM API management & key redistribution system, unifying multiple providers under a single API. Single binary, Docker-ready, with an English UI.|![2025-07-19 02:11:50](https://img.shields.io/badge/2025--07--19-02%3A11%3A50-brightgreen?style=flat-square)|
-|[go-file](https://github.com/songquanpeng/go-file)|基于 Go 的文件分享工具，仅单可执行文件，开箱即用，内置图床和视频播放页面. File sharing tool based on Go.|![2025-04-17 05:55:45](https://img.shields.io/badge/2025--04--17-05%3A55%3A45-brightgreen?style=flat-square)|
-|[message-pusher](https://github.com/songquanpeng/message-pusher)|搭建专属于你的消息推送服务，支持多种消息推送方式，支持 Markdown，基于 Golang 仅单可执行文件，开箱即用|![2025-04-17 05:55:44](https://img.shields.io/badge/2025--04--17-05%3A55%3A44-brightgreen?style=flat-square)|
-|[stats-cards](https://github.com/songquanpeng/stats-cards)|在 README 中展示你在知乎，GitHub，B 站，LeetCode，掘金，CSDN，牛客等网站的数据，也可用于服务状态监控. Show your LeetCode & GitHub stats in GitHub Profile.|![2025-02-03 22:01:05](https://img.shields.io/badge/2025--02--03-22%3A01%3A05-brightgreen?style=flat-square)|
-|[gin-template](https://github.com/songquanpeng/gin-template)|用于 Gin & React 项目的模板. Template for Gin & React projects.|![2024-12-27 21:15:42](https://img.shields.io/badge/2024--12--27-21%3A15%3A42-brightgreen?style=flat-square)|
-|[rest-server](https://github.com/songquanpeng/rest-server)|General server for toy projects.|![2024-07-06 13:49:53](https://img.shields.io/badge/2024--07--06-13%3A49%3A53-brightgreen?style=flat-square)|
-|[openai-mocker](https://github.com/songquanpeng/openai-mocker)|一个模拟 OpenAI API 的 mock server，用以 One API 的压测|![2024-03-14 06:41:50](https://img.shields.io/badge/2024--03--14-06%3A41%3A50-brightgreen?style=flat-square)|
-|[wechat-server](https://github.com/songquanpeng/wechat-server)|微信公众号的后端，为其他系统提供微信登录验证功能|![2023-12-19 08:14:46](https://img.shields.io/badge/2023--12--19-08%3A14%3A46-brightgreen?style=flat-square)|
-|[one-proxy](https://github.com/songquanpeng/one-proxy)|轻松管理你的众多订阅，提供一个固定的订阅地址。|![2023-12-19 08:14:30](https://img.shields.io/badge/2023--12--19-08%3A14%3A30-brightgreen?style=flat-square)|
+|[get_jobs](https://github.com/loks666/get_jobs)|💼【AI找工作助手】全平台自动投简历脚本：(boss、前程无忧、猎聘、拉勾、智联招聘)|![2025-08-08 04:59:04](https://img.shields.io/badge/2025--08--08-04%3A59%3A04-brightgreen?style=flat-square)|
+|[py_tools](https://github.com/loks666/py_tools)|分享自己写的一些小工具|![2025-05-12 15:34:00](https://img.shields.io/badge/2025--05--12-15%3A34%3A00-brightgreen?style=flat-square)|
+|[FinancialMachineLearning](https://github.com/loks666/FinancialMachineLearning)|该项目利用资本资产定价模型（CAPM）和均值方差优化（MVO），通过二次规划来构建最优投资组合，以最小化风险并最大化收益。|![2025-04-23 16:57:36](https://img.shields.io/badge/2025--04--23-16%3A57%3A36-brightgreen?style=flat-square)|
+|[oldHooliganTask](https://github.com/loks666/oldHooliganTask)|老登的任务|![2025-04-23 16:42:14](https://img.shields.io/badge/2025--04--23-16%3A42%3A14-brightgreen?style=flat-square)|
+|[pacman-engine](https://github.com/loks666/pacman-engine)|pacman agent|![2025-02-27 14:20:42](https://img.shields.io/badge/2025--02--27-14%3A20%3A42-brightgreen?style=flat-square)|
+|[Assignment](https://github.com/loks666/Assignment)|None|![2024-12-09 03:15:33](https://img.shields.io/badge/2024--12--09-03%3A15%3A33-brightgreen?style=flat-square)|
+|[RL-MiniGames](https://github.com/loks666/RL-MiniGames)|Reinforcement learning mini-game|![2024-11-14 23:10:34](https://img.shields.io/badge/2024--11--14-23%3A10%3A34-brightgreen?style=flat-square)|
+|[qiaoyin](https://github.com/loks666/qiaoyin)|None|![2024-09-24 16:23:02](https://img.shields.io/badge/2024--09--24-16%3A23%3A02-brightgreen?style=flat-square)|
+|[PlateCheck](https://github.com/loks666/PlateCheck)|PlateCheck-licence plate recognition system,车辆套牌识别系统，增删改查实现，无ocr识别|![2024-09-05 03:52:00](https://img.shields.io/badge/2024--09--05-03%3A52%3A00-brightgreen?style=flat-square)|
+|[smart_home](https://github.com/loks666/smart_home)|智慧家居控制系统|![2024-08-12 23:16:48](https://img.shields.io/badge/2024--08--12-23%3A16%3A48-brightgreen?style=flat-square)|
 
 
 
-*Last updated on: 2025-08-03 20:48:20*
+*Last updated on: 2025-08-08 16:37:13*
