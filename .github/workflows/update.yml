@@ -1,8 +1,12 @@
 name: Update Profile
 
+permissions:
+  contents: write
+
 on:
   schedule:
-    - cron: "0 12 * * SUN"
+    # 每天北京时间 01:00 = 前一天 UTC 17:00
+    - cron: '0 17 * * *'
   push:
     tags:
       - '*'
@@ -15,26 +19,37 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Shanghai
+      # 用你设置的 Secrets MY_GITHUB_USERNAME 传给 update.py 里的 GITHUB_USERNAME
+      GITHUB_USERNAME: ${{ secrets.MY_GITHUB_USERNAME }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
-    - uses: actions/checkout@v1
-      with:
-        ref: "master"
-    - uses: actions/setup-python@v2
-      with:
-        python-version: '3.8'
-    - run: |
-        sudo timedatectl set-timezone "Asia/Shanghai"
-        pip install -r requirements.txt
-        python ./update.py
-    - name: update readme
-      env:
-        GIT_USER: "GitHub Actions"
-        GIT_EMAIL: "action@github.com"
-      run: |
-        git config user.name "${GIT_USER}"
-        git config user.email "${GIT_EMAIL}"
-        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git
-        git checkout master
-        git add ./README.md
-        git commit -m ":book: update by GitHub Actions"
-        git push -u origin master
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          else
+            pip install requests python-dateutil
+          fi
+
+      - name: Run update.py
+        run: python ./update.py
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [[ -n "$(git status --porcelain README.md)" ]]; then
+            git add README.md
+            git commit -m ":book: update by GitHub Actions"
+            git push
+          else
+            echo "No changes to commit"
+          fi

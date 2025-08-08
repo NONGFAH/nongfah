@@ -1,21 +1,21 @@
 # -*- coding: utf-8 -*-
 import os
+import sys
 import datetime
 import requests
 from dateutil import tz
 
-# ==== 可选：从环境变量读取 Token，提升 API 限额 ====
-# 例如在 GitHub Actions 的 Secrets 里设置 GITHUB_TOKEN 或 GH_TOKEN
+# ==== 配置 ====
 token = os.getenv("GITHUB_TOKEN") or os.getenv("GH_TOKEN") or ""
-
-# ==== 基本配置 ====
 current_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-TOP_REPO_NUM = 10
-RECENT_REPO_NUM = 10
+TOP_REPO_NUM = int(os.getenv("TOP_REPO_NUM", "10"))
+RECENT_REPO_NUM = int(os.getenv("RECENT_REPO_NUM", "10"))
 
 from_zone = tz.tzutc()
 to_zone = tz.tzlocal()
 
+def log(*args):
+    print("[UPDATE_PROFILE]", *args, flush=True)
 
 def _headers():
     return {} if not token else {
@@ -24,6 +24,18 @@ def _headers():
         "X-GitHub-Api-Version": "2022-11-28",
     }
 
+def _get_json(url, what):
+    """带日志的请求封装"""
+    log(f"GET {what}: {url}")
+    try:
+        r = requests.get(url, headers=_headers(), timeout=30)
+        log(f" -> status={r.status_code}")
+        if r.status_code != 200:
+            log(f" !! non-200 for {what}: {r.text[:200]}")
+        return r.json()
+    except Exception as e:
+        log(f" !! request error for {what}: {e}")
+        return None
 
 def fetcher(username: str):
     """
@@ -31,6 +43,9 @@ def fetcher(username: str):
       - top_repos: 按 Star 数排序 Top N
       - recent_repos: 按最后 push 时间排序 Top N
     """
+    log("=== FETCH START ===")
+    log(f"username = {username}")
+    log(f"token_present = {bool(token)} (len={len(token) if token else 0})")
     result = {
         'name': '',
         'public_repos': 0,
@@ -40,21 +55,30 @@ def fetcher(username: str):
 
     # 用户信息
     user_info_url = f"https://api.github.com/users/{username}"
-    user = requests.get(user_info_url, headers=_headers()).json()
+    user = _get_json(user_info_url, "user_info")
+    if not isinstance(user, dict):
+        log(" !! user_info invalid, abort")
+        return result
     result['name'] = (user.get('name') or username)
     result['public_repos'] = user.get('public_repos', 0)
+    log(f"name = {result['name']}, public_repos = {result['public_repos']}")
 
     # 全量仓库（分页）
     repos = []
     page = 1
     while True:
-        all_repos_url = f"https://api.github.com/users/{username}/repos?per_page=100&page={page}&type=owner&sort=updated"
-        resp = requests.get(all_repos_url, headers=_headers())
-        data = resp.json()
+        all_repos_url = (
+            f"https://api.github.com/users/{username}/repos"
+            f"?per_page=100&page={page}&type=owner&sort=updated"
+        )
+        data = _get_json(all_repos_url, f"repos_page_{page}")
         if not isinstance(data, list) or not data:
             break
         repos.extend(data)
+        log(f"  -> page {page} repos fetched: {len(data)}, total so far: {len(repos)}")
         page += 1
+
+    log(f"total repos fetched (raw) = {len(repos)}")
 
     processed = []
     for repo in repos:
@@ -62,8 +86,12 @@ def fetcher(username: str):
             continue
 
         pushed_iso = repo.get('pushed_at') or repo.get('updated_at') or repo.get('created_at')
-        dt = datetime.datetime.strptime(pushed_iso, "%Y-%m-%dT%H:%M:%SZ")
-        dt = dt.replace(tzinfo=from_zone).astimezone(to_zone)
+        try:
+            dt = datetime.datetime.strptime(pushed_iso, "%Y-%m-%dT%H:%M:%SZ")
+            dt = dt.replace(tzinfo=from_zone).astimezone(to_zone)
+        except Exception as e:
+            log(f"  -> time parse error for {repo.get('name')}: {e}")
+            continue
 
         processed.append({
             'score': (repo.get('stargazers_count', 0) +
@@ -79,15 +107,21 @@ def fetcher(username: str):
             'description': (repo.get('description') or '')
         })
 
+    log(f"processed repos (non-fork) = {len(processed)}")
+
     # Top by star
     top_repos = sorted(processed, key=lambda x: x['star'], reverse=True)[:TOP_REPO_NUM]
     # Recent by pushed time
     recent_repos = sorted(processed, key=lambda x: x['pushed_at_dt'], reverse=True)[:RECENT_REPO_NUM]
 
+    log(f"TOP_REPO_NUM = {TOP_REPO_NUM}, selected = {len(top_repos)}")
+    log(f"RECENT_REPO_NUM = {RECENT_REPO_NUM}, selected = {len(recent_repos)}")
+
     result['top_repos'] = top_repos
     result['recent_repos'] = recent_repos
-    return result
 
+    log("=== FETCH DONE ===")
+    return result
 
 def render(github_username, github_data) -> str:
     """
@@ -97,6 +131,7 @@ def render(github_username, github_data) -> str:
       - 访客计数
       - GitHub streak（两张不同主题）
     """
+    log("=== RENDER START ===")
     cache_bust = current_time.replace(' ', '').replace(':', '').replace('-', '')
     abstract_tpl = f"""## Abstract
 <p>
@@ -158,42 +193,53 @@ def render(github_username, github_data) -> str:
         md += f"|[{repo['name']}]({repo['link']})|{desc}|![{repo['pushed_at']}](https://img.shields.io/badge/{date_slug}-brightgreen?style=flat-square)|\n"
 
     md += f"\n\n*Last updated on: {current_time}*\n"
+    log("=== RENDER DONE ===")
     return md
-
 
 def writer(markdown) -> bool:
     try:
         with open('./README.md', 'w', encoding='utf-8') as f:
             f.write(markdown)
+        log("WRITE README.md -> OK")
         return True
-    except IOError:
-        print('unable to write to file')
+    except IOError as e:
+        log(f"WRITE README.md -> FAILED: {e}")
         return False
-
 
 def pusher():
     commit_message = f":pencil2: update on {current_time}"
     os.system('git add ./README.md')
     if os.getenv('DEBUG'):
+        log("DEBUG=1 -> skip commit/push")
         return
-    os.system(f'git commit -m "{commit_message}" || echo "no changes"')
-    os.system('git push || true')
-
+    code = os.system(f'git commit -m "{commit_message}"')
+    log(f"git commit exit={code}")
+    code = os.system('git push')
+    log(f"git push exit={code}")
 
 def main():
-    # 读取用户名（未设置则用当前目录名）
+    log("=== JOB START ===")
+    log(f"TIME = {current_time}")
     github_username = os.getenv('GITHUB_USERNAME')
     if not github_username:
         cwd = os.getcwd()
         github_username = os.path.split(cwd)[-1]
+        log(f"GITHUB_USERNAME not set, fallback to cwd name: {github_username}")
+    else:
+        log(f"GITHUB_USERNAME from env: {github_username}")
 
     data = fetcher(github_username)
     md = render(github_username, data)
     if writer(md):
-        pass
+        log("READY to commit (pusher disabled by default).")
         # 如需自动提交，取消下一行注释
         # pusher()
-
+    log("=== JOB END ===")
 
 if __name__ == '__main__':
-    main()
+    # 失败时让 Action 直接显示错误并退出非零
+    try:
+        main()
+    except Exception as e:
+        log(f"FATAL ERROR: {e}")
+        sys.exit(1)
