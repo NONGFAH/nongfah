@@ -1,31 +1,20 @@
 ## Abstract
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username=loks666&show_icons=true&hide_border=true&v=20250808172541" alt="GeneralFly's Github Stats" width="58%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=loks666&layout=compact&hide_border=true&langs_count=10&v=20250808172541" alt="GeneralFly's Top Langs" width="37%" /> 
+  <img src="https://github-readme-stats.vercel.app/api?username=loks666&show_icons=true&hide_border=true&v=20250808172719" alt="GeneralFly's Github Stats" width="58%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=loks666&layout=compact&hide_border=true&langs_count=10&v=20250808172719" alt="GeneralFly's Top Langs" width="37%" />
 </p>
 
 <!-- GitHub 活跃度图 -->
 <p>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=loks666&theme=github&v=20250808172541" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=loks666&theme=github&v=20250808172719" width="100%" />
 </p>
 
-<!-- 访客计数 -->
+<!-- GitHub Trophy 奖杯墙（稳定） -->
 <p>
-  <img src="https://komarev.com/ghpvc/?username=loks666&color=blue&style=flat-square&label=Profile+Views&v=20250808172541" />
+  <img src="https://github-profile-trophy.vercel.app/?username=loks666&theme=gruvbox&row=1&column=7&v=20250808172719" width="100%" />
 </p>
 
-<!-- GitHub streak 连续提交天数（主题1） -->
-<p>
-  <img src="https://streak-stats.demolab.com/?user=loks666&theme=tokyonight&hide_border=true&v=20250808172541" width="100%" />
-</p>
-
-<!-- GitHub streak 连续提交天数（主题2） -->
-<p>
-  <img src="https://streak-stats.demolab.com/?user=loks666&theme=default&hide_border=false&v=20250808172541" width="100%" />
-</p>
-
-![skills](https://skillicons.dev/icons?i=c,cpp,go,py,html,css,js,nodejs,java,md,pytorch,tensorflow,flask,fastapi,express,qt,react,cmake,docker,git,linux,nginx,mysql,redis,sqlite,githubactions,heroku,vercel,visualstudio,vscode)
-
+![skills](https://skillicons.dev/icons?i=py,java,js,go,jupyter,ts,html,css,vue,php,kotlin,cpp,cs)
 
 ## Top Projects
 |Project|Description|Stars|
@@ -56,4 +45,4 @@
 |[smart_home](https://github.com/loks666/smart_home)|智慧家居控制系统|![2024-08-12 23:16:48](https://img.shields.io/badge/2024--08--12-23%3A16%3A48-brightgreen?style=flat-square)|
 
 
-*Last updated on: 2025-08-08 17:25:41*
+*Last updated on: 2025-08-08 17:27:19*
