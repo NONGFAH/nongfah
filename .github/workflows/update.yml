@@ -18,27 +18,31 @@ jobs:
       MY_GITHUB_PAT: ${{ secrets.MY_GITHUB_PAT }}   # 你的 PAT（classic，勾 repo）
     steps:
       - uses: actions/checkout@v4
-
-      - uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          fetch-depth: 0            # 关键：拿到完整历史，才能正常 rebase
+          persist-credentials: true # 用 GITHUB_TOKEN 推回去
 
-      - name: Install deps
+      - name: Commit & push with rebase
         run: |
-          python -m pip install -U pip
-          pip install requests
-
-      - name: Run update.py
-        run: python ./update.py
-
-      - name: Commit & push if changed
-        run: |
+          set -e
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # 只有 README.md 有变更才提交
           if [[ -n "$(git status --porcelain README.md)" ]]; then
             git add README.md
-            git commit -m ":book: update by GitHub Actions"
-            git push
+            git commit -m ":book: update by GitHub Actions" || true
           else
             echo "No changes to commit"
           fi
+
+          # 识别当前分支（main/master 都兼容）
+          BRANCH="${GITHUB_REF_NAME:-$(git rev-parse --abbrev-ref HEAD)}"
+
+          # 远端更新先拉再推，避免 non-fast-forward
+          git fetch origin "${BRANCH}"
+          git pull --rebase origin "${BRANCH}"
+
+          # 推送
+          git push origin "${BRANCH}"
+      
