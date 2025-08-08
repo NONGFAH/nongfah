@@ -56,44 +56,57 @@ def fetch_all_repos(username: str):
     log(f"total repos fetched = {len(repos)}")
     return repos
 
-# ---------- 技能图标（基于“所有仓库”的 primary language；自动过滤 Jupyter） ----------
-VALID = {
-    # 够用的一组，避免未知代号导致“空格卡”
-    "py","java","js","ts","go","html","css","vue","php","kotlin","cpp","c","cs",
-    "bash","docker","git","linux","nginx","mysql","postgres","sqlite","redis",
-    "pytorch","tensorflow","fastapi","flask","express","qt","cmake","vercel",
-    "vscode","visualstudio","githubactions","nodejs","react","objectivec"
-}
-ALIAS = {
-    "golang":"go",
-    "javascript":"js",
-    "typescript":"ts",
-    "c++":"cpp",
-    "c#":"cs",
-    "objective-c":"objectivec",
-    "node":"nodejs",
-    # 过滤 Jupyter
-    "jupyter":"", "jupyter notebook":"", "jupyter-notebook":""
-}
+# ---------- 技能图标（基于“所有仓库”的 primary language；不做映射/白名单；动态探测；过滤 jupyter） ----------
+_ICON_SUPPORT_CACHE = {}
 
-def to_icon_code(language_name: str) -> str:
-    if not language_name:
-        return ""
-    x = language_name.strip().lower()
-    x = ALIAS.get(x, x)
-    return x if x in VALID else ""
+def skillicon_supported(code: str) -> bool:
+    """
+    动态检测 skillicons 是否支持某个 code。
+    不做任何映射：直接拿 language 的小写作为 code。
+    """
+    if not code:
+        return False
+    if code in _ICON_SUPPORT_CACHE:
+        return _ICON_SUPPORT_CACHE[code]
+    try:
+        resp = requests.get(f"https://skillicons.dev/icons?i={code}", timeout=10)
+        ok = (resp.status_code == 200 and resp.headers.get("content-type", "").startswith("image"))
+    except Exception:
+        ok = False
+    _ICON_SUPPORT_CACHE[code] = ok
+    return ok
 
 def build_skill_icons_from_repos(repos):
-    seen, codes = set(), []
+    """
+    统计范围：所有仓库（含私有 + fork）
+    逻辑：语言 -> 小写代号 -> 过滤 jupyter -> 动态探测支持 -> 去重保序
+    加 cache-bust 参数避免 GitHub camo 缓存。
+    """
+    seen, raw_codes = set(), []
     for r in repos:
         lang = (r.get("language") or "").strip()
-        code = to_icon_code(lang)
-        if code and code not in seen:
-            seen.add(code); codes.append(code)
-    if not codes:
-        codes = ["py","java","js","go","ts","html","css","nodejs","docker","git","linux"]
-    url = f"https://skillicons.dev/icons?i={','.join(codes)}"
-    log(f"SKILL_ICONS -> {url}")
+        if not lang:
+            continue
+        code = lang.lower()
+        # 过滤 jupyter
+        if "jupyter" in code:
+            continue
+        if code not in seen:
+            seen.add(code)
+            raw_codes.append(code)
+
+    supported = []
+    for c in raw_codes:
+        if skillicon_supported(c):
+            supported.append(c)
+
+    if not supported:
+        # 兜底一组常见项，避免整排空
+        supported = ["python", "java", "javascript", "go", "typescript", "html", "css", "nodejs", "docker", "git", "linux"]
+
+    cache_bust = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
+    url = f"https://skillicons.dev/icons?i={','.join(supported)}&v={cache_bust}"
+    log(f"SKILL_ICONS raw={raw_codes} -> used={supported} -> {url}")
     return url
 
 # ---------- 渲染 ----------
@@ -126,7 +139,7 @@ def render(username: str, repos: list) -> str:
             "fork": repo.get("fork", False),
         })
 
-    # 1) 技能图标：基于“所有仓库（含私有+fork）”，自动过滤 Jupyter
+    # 1) 技能图标：基于“所有仓库（含私有+fork）”，动态探测 + 过滤 jupyter
     skills_url = build_skill_icons_from_repos(repos)
 
     # 2) Top / Recent：保持“只统计公开仓库（fork 保留）”
