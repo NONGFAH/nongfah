@@ -14,8 +14,10 @@ RECENT_REPO_NUM = int(os.getenv("RECENT_REPO_NUM", "10"))
 from_zone = tz.tzutc()
 to_zone = tz.tzlocal()
 
+
 def log(*args):
     print("[UPDATE_PROFILE]", *args, flush=True)
+
 
 def _headers():
     return {} if not token else {
@@ -23,6 +25,7 @@ def _headers():
         "Accept": "application/vnd.github+json",
         "X-GitHub-Api-Version": "2022-11-28",
     }
+
 
 def _get_json(url, what):
     """带日志的请求封装"""
@@ -36,6 +39,7 @@ def _get_json(url, what):
     except Exception as e:
         log(f" !! request error for {what}: {e}")
         return None
+
 
 def fetcher(username: str):
     """
@@ -101,8 +105,8 @@ def fetcher(username: str):
             'link': repo.get('html_url'),
             'created_at': repo.get('created_at'),
             'updated_at': repo.get('updated_at'),
-            'pushed_at_dt': dt,                                     # 用于排序
-            'pushed_at': dt.strftime('%Y-%m-%d %H:%M:%S'),          # 用于展示
+            'pushed_at_dt': dt,  # 用于排序
+            'pushed_at': dt.strftime('%Y-%m-%d %H:%M:%S'),  # 用于展示
             'name': repo.get('name'),
             'description': (repo.get('description') or '')
         })
@@ -123,6 +127,7 @@ def fetcher(username: str):
     log("=== FETCH DONE ===")
     return result
 
+
 def render(github_username, github_data) -> str:
     """
     生成 README 文本。
@@ -136,7 +141,7 @@ def render(github_username, github_data) -> str:
     abstract_tpl = f"""## Abstract
 <p>
   <img src="https://github-readme-stats.vercel.app/api?username={{github_username}}&show_icons=true&hide_border=true&v={cache_bust}" alt="{{github_name}}'s Github Stats" width="58%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username={{github_username}}&layout=compact&hide_border=true&langs_count=10&v={cache_bust}" alt="{{github_name}}'s Top Langs" width="37%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username={{github_username}}&layout=compact&hide_border=true&langs_count=10&v={cache_bust}" alt="{{github_name}}'s Top Langs" width="37%" /> 
 </p>
 
 <!-- GitHub 活跃度图 -->
@@ -151,12 +156,12 @@ def render(github_username, github_data) -> str:
 
 <!-- GitHub streak 连续提交天数（主题1） -->
 <p>
-  <img src="https://streak-stats.demolab.com?user={{github_username}}&theme=tokyonight&hide_border=true&v={cache_bust}" width="100%" />
+  <img src="https://streak-stats.demolab.com/?user={{github_username}}&theme=tokyonight&hide_border=true&v={cache_bust}" width="100%" />
 </p>
 
 <!-- GitHub streak 连续提交天数（主题2） -->
 <p>
-  <img src="https://streak-stats.demolab.com?user={{github_username}}&theme=default&hide_border=false&v={cache_bust}" width="100%" />
+  <img src="https://streak-stats.demolab.com/?user={{github_username}}&theme=default&hide_border=false&v={cache_bust}" width="100%" />
 </p>
 
 ![skills](https://skillicons.dev/icons?i=c,cpp,go,py,html,css,js,nodejs,java,md,pytorch,tensorflow,flask,fastapi,express,qt,react,cmake,docker,git,linux,nginx,mysql,redis,sqlite,githubactions,heroku,vercel,visualstudio,vscode)
@@ -180,6 +185,9 @@ def render(github_username, github_data) -> str:
         github_name=github_data['name'],
     )
 
+    # 关键修复：先把表头拼进去
+    md += top_repos_tpl
+
     # Top
     for repo in github_data['top_repos']:
         desc = (repo['description'] or '').replace('|', '\\|').strip()
@@ -196,6 +204,7 @@ def render(github_username, github_data) -> str:
     log("=== RENDER DONE ===")
     return md
 
+
 def writer(markdown) -> bool:
     try:
         with open('./README.md', 'w', encoding='utf-8') as f:
@@ -205,6 +214,7 @@ def writer(markdown) -> bool:
     except IOError as e:
         log(f"WRITE README.md -> FAILED: {e}")
         return False
+
 
 def pusher():
     commit_message = f":pencil2: update on {current_time}"
@@ -216,6 +226,7 @@ def pusher():
     log(f"git commit exit={code}")
     code = os.system('git push')
     log(f"git push exit={code}")
+
 
 def main():
     log("=== JOB START ===")
@@ -235,6 +246,7 @@ def main():
         # 如需自动提交，取消下一行注释
         # pusher()
     log("=== JOB END ===")
+
 
 if __name__ == '__main__':
     # 失败时让 Action 直接显示错误并退出非零
