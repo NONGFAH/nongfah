@@ -4,9 +4,10 @@ import sys
 import datetime
 import requests
 
-# ========== 环境变量 ==========
+# ========= 环境变量 =========
 USERNAME = os.getenv("MY_GITHUB_USERNAME") or os.getenv("GITHUB_USERNAME")
-TOKEN = os.getenv("MY_GITHUB_PAT") or os.getenv("GITHUB_TOKEN")  # 建议用 MY_GITHUB_PAT (classic, 勾 repo)
+# 建议用 classic PAT 且勾 repo 权限；没有的话只能拿公开库
+TOKEN = os.getenv("MY_GITHUB_PAT") or os.getenv("GITHUB_TOKEN")
 
 TOP_REPO_NUM = int(os.getenv("TOP_REPO_NUM", "10"))
 RECENT_REPO_NUM = int(os.getenv("RECENT_REPO_NUM", "10"))
@@ -29,18 +30,17 @@ def get_json(url, what):
         r.raise_for_status()
     return r.json()
 
-# ---------- 拉取仓库：包含私有 + fork ----------
+# ---------- 拉取仓库：图标统计需要“包含私有+fork”；Top/Recent 后面再按需求过滤 ----------
 def fetch_all_repos(username: str):
     """
-    优先 /user/repos（需要 PAT: repo 权限），可拿到私有仓库；
-    包含 fork；仅 owner 身份；按更新时间倒序分页。
-    若无 TOKEN，则退回 /users/{username}/repos（只能拿公开库）。
+    若有 TOKEN：/user/repos?visibility=all&affiliation=owner,collaborator,organization_member
+      -> 可拿到 私有 + 公开，且包含 fork（我们不在这里过滤）
+    否则：/users/{username}/repos?type=owner -> 只能拿公开
     """
-    repos = []
-    page = 1
+    repos, page = [], 1
     if TOKEN:
         base = "https://api.github.com/user/repos"
-        extra = "&visibility=all&affiliation=owner&sort=updated"
+        extra = "&visibility=all&affiliation=owner,collaborator,organization_member&sort=updated"
     else:
         base = f"https://api.github.com/users/{username}/repos"
         extra = "&type=owner&sort=updated"
@@ -56,13 +56,13 @@ def fetch_all_repos(username: str):
     log(f"total repos fetched = {len(repos)}")
     return repos
 
-# ---------- 技能图标（基于所有仓库；过滤 jupyter） ----------
+# ---------- 技能图标（基于“所有仓库”的 primary language；自动过滤 Jupyter） ----------
 VALID = {
-    # 够用的一小撮，避免“空格卡”
+    # 够用的一组，避免未知代号导致“空格卡”
     "py","java","js","ts","go","html","css","vue","php","kotlin","cpp","c","cs",
     "bash","docker","git","linux","nginx","mysql","postgres","sqlite","redis",
     "pytorch","tensorflow","fastapi","flask","express","qt","cmake","vercel",
-    "vscode","visualstudio","githubactions","nodejs","react"
+    "vscode","visualstudio","githubactions","nodejs","react","objectivec"
 }
 ALIAS = {
     "golang":"go",
@@ -70,10 +70,10 @@ ALIAS = {
     "typescript":"ts",
     "c++":"cpp",
     "c#":"cs",
-    "objective-c":"objectivec",  # skillicons 支持 objectivec，如需可加入 VALID
+    "objective-c":"objectivec",
     "node":"nodejs",
-    "jupyter":"",                # 过滤
-    "jupyter notebook":"",       # 过滤
+    # 过滤 Jupyter
+    "jupyter":"", "jupyter notebook":"", "jupyter-notebook":""
 }
 
 def to_icon_code(language_name: str) -> str:
@@ -84,8 +84,7 @@ def to_icon_code(language_name: str) -> str:
     return x if x in VALID else ""
 
 def build_skill_icons_from_repos(repos):
-    seen = set()
-    codes = []
+    seen, codes = set(), []
     for r in repos:
         lang = (r.get("language") or "").strip()
         code = to_icon_code(lang)
@@ -127,12 +126,11 @@ def render(username: str, repos: list) -> str:
             "fork": repo.get("fork", False),
         })
 
-    # 技能图标用“全部仓库”（含私有+fork）
+    # 1) 技能图标：基于“所有仓库（含私有+fork）”，自动过滤 Jupyter
     skills_url = build_skill_icons_from_repos(repos)
 
-    # Top / Recent 只统计“公开仓库”（fork 保留）
+    # 2) Top / Recent：保持“只统计公开仓库（fork 保留）”
     public_processed = [r for r in processed if not r["private"]]
-
     top = sorted(public_processed, key=lambda x: x["star"], reverse=True)[:TOP_REPO_NUM]
     recent = sorted(public_processed, key=lambda x: x["pushed_dt"], reverse=True)[:RECENT_REPO_NUM]
 
@@ -180,7 +178,7 @@ def main():
         print("ERROR: 请在仓库 Secrets 里设置 MY_GITHUB_USERNAME", file=sys.stderr)
         sys.exit(2)
     if not TOKEN:
-        log("WARN: 未提供 PAT（MY_GITHUB_PAT），将只能统计公开仓库")
+        log("WARN: 未提供 PAT（MY_GITHUB_PAT），将只能统计公开仓库；技能图标将缺少私仓语言")
 
     repos = fetch_all_repos(USERNAME)
     md = render(USERNAME, repos)
