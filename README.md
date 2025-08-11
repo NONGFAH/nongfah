@@ -1,17 +1,17 @@
 ## Abstract
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username=loks666&show_icons=true&hide_border=true&v=20250811152253" alt="loks666's Github Stats" width="58%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=loks666&layout=compact&hide_border=true&langs_count=10&v=20250811152253" alt="loks666's Top Langs" width="37%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=loks666&show_icons=true&hide_border=true&v=20250812012212" alt="loks666's Github Stats" width="58%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=loks666&layout=compact&hide_border=true&langs_count=10&v=20250812012212" alt="loks666's Top Langs" width="37%" />
 </p>
 
 <!-- 活跃度图 -->
 <p>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=loks666&theme=github&v=20250811152253" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=loks666&theme=github&v=20250812012212" width="100%" />
 </p>
 
 <!-- 奖杯墙 -->
 <p>
-  <img src="https://github-profile-trophy.vercel.app/?username=loks666&theme=gruvbox&row=1&column=7&v=20250811152253" width="100%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=loks666&theme=gruvbox&row=1&column=7&v=20250812012212" width="100%" />
 </p>
 
 ![skills](https://skillicons.dev/icons?i=c,cpp,go,py,html,css,js,nodejs,java,md,pytorch,tensorflow,flask,fastapi,express,qt,react,cmake,docker,git,linux,nginx,mysql,redis,sqlite,githubactions,heroku,vercel,visualstudio,vscode)
@@ -34,8 +34,9 @@
 ## Recent Updates
 |Project|Description|Last Update|
 |:--|:--|:--|
+|[blogSync](https://github.com/loks666/blogSync)|一键同步文章到多个内容平台，支持今日头条、WordPress、知乎、简书、掘金、CSDN、typecho各大平台，一次发布，多平台同步发布。解放个人生产力|![2025-08-11 14:54:20](https://img.shields.io/badge/2025--08--11-14%3A54%3A20-brightgreen?style=flat-square)|
+|[loks666 (fork)](https://github.com/loks666/loks666)|Automatically update your GitHub profile with GitHub Actions.|![2025-08-11 07:22:54](https://img.shields.io/badge/2025--08--11-07%3A22%3A54-brightgreen?style=flat-square)|
 |[Resume-Matcher](https://github.com/loks666/Resume-Matcher)|Resume Matcher 是一个 AI 驱动的平台，它对招聘算法进行逆向工程，精准地向您展示如何定制您的简历。获取关键词、格式和洞察，助您顺利通过首屏筛选，最终交到真人手中。|![2025-08-10 21:18:39](https://img.shields.io/badge/2025--08--10-21%3A18%3A39-brightgreen?style=flat-square)|
-|[loks666 (fork)](https://github.com/loks666/loks666)|Automatically update your GitHub profile with GitHub Actions.|![2025-08-10 17:18:18](https://img.shields.io/badge/2025--08--10-17%3A18%3A18-brightgreen?style=flat-square)|
 |[get_jobs](https://github.com/loks666/get_jobs)|💼【AI找工作助手】全平台自动投简历脚本：(boss、前程无忧、猎聘、拉勾、智联招聘)|![2025-08-07 20:59:04](https://img.shields.io/badge/2025--08--07-20%3A59%3A04-brightgreen?style=flat-square)|
 |[py_tools](https://github.com/loks666/py_tools)|分享自己写的一些小工具|![2025-05-12 07:34:00](https://img.shields.io/badge/2025--05--12-07%3A34%3A00-brightgreen?style=flat-square)|
 |[FinancialMachineLearning](https://github.com/loks666/FinancialMachineLearning)|该项目利用资本资产定价模型（CAPM）和均值方差优化（MVO），通过二次规划来构建最优投资组合，以最小化风险并最大化收益。|![2025-04-23 08:57:36](https://img.shields.io/badge/2025--04--23-08%3A57%3A36-brightgreen?style=flat-square)|
@@ -43,7 +44,6 @@
 |[WeChatMsg (fork)](https://github.com/loks666/WeChatMsg)|提取微信聊天记录，将其导出成HTML、Word、CSV文档永久保存，对聊天记录进行分析生成年度聊天报告|![2025-04-10 01:55:24](https://img.shields.io/badge/2025--04--10-01%3A55%3A24-brightgreen?style=flat-square)|
 |[pacman-engine](https://github.com/loks666/pacman-engine)|pacman agent|![2025-02-27 06:20:42](https://img.shields.io/badge/2025--02--27-06%3A20%3A42-brightgreen?style=flat-square)|
 |[radiate_sdk (fork)](https://github.com/loks666/radiate_sdk)|SDK developed to access data from RADIATE dataset|![2024-12-26 17:26:36](https://img.shields.io/badge/2024--12--26-17%3A26%3A36-brightgreen?style=flat-square)|
-|[Assignment](https://github.com/loks666/Assignment)||![2024-12-08 19:15:33](https://img.shields.io/badge/2024--12--08-19%3A15%3A33-brightgreen?style=flat-square)|
 
 
-*Last updated on: 2025-08-11 15:22:53*
+*Last updated on: 2025-08-12 01:22:12*
