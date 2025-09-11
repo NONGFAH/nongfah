@@ -1,17 +1,17 @@
 ## Abstract
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username=loks666&show_icons=true&hide_border=true&v=20250911011717" alt="loks666's Github Stats" width="58%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=loks666&layout=compact&hide_border=true&langs_count=10&v=20250911011717" alt="loks666's Top Langs" width="37%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=loks666&show_icons=true&hide_border=true&v=20250912011741" alt="loks666's Github Stats" width="58%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=loks666&layout=compact&hide_border=true&langs_count=10&v=20250912011741" alt="loks666's Top Langs" width="37%" />
 </p>
 
 <!-- 活跃度图 -->
 <p>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=loks666&theme=github&v=20250911011717" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=loks666&theme=github&v=20250912011741" width="100%" />
 </p>
 
 <!-- 奖杯墙 -->
 <p>
-  <img src="https://github-profile-trophy.vercel.app/?username=loks666&theme=gruvbox&row=1&column=7&v=20250911011717" width="100%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=loks666&theme=gruvbox&row=1&column=7&v=20250912011741" width="100%" />
 </p>
 
 ![skills](https://skillicons.dev/icons?i=c,cpp,go,py,html,css,js,nodejs,java,md,pytorch,tensorflow,flask,fastapi,express,qt,react,cmake,docker,git,linux,nginx,mysql,redis,sqlite,githubactions,heroku,vercel,visualstudio,vscode)
@@ -19,7 +19,7 @@
 ## Top Projects
 |Project|Description|Stars|
 |:--|:--|:--|
-|[get_jobs](https://github.com/loks666/get_jobs)|💼【AI找工作助手】全平台自动投简历脚本：(boss、前程无忧、猎聘、拉勾、智联招聘)|`3146⭐`|
+|[get_jobs](https://github.com/loks666/get_jobs)|💼【AI找工作助手】全平台自动投简历脚本：(boss、前程无忧、猎聘、拉勾、智联招聘)|`3190⭐`|
 |[niubaide_im](https://github.com/loks666/niubaide_im)|牛掰的即时通讯(Uniapp + SpringBoot + Netty)|`29⭐`|
 |[webchat](https://github.com/loks666/webchat)|一个聊天应用|`22⭐`|
 |[disease-prediction](https://github.com/loks666/disease-prediction)|疾病预测分析系统旨在利用现代数据分析技术和机器学习算法，帮助医疗机构和研究人员对疾病的发生和发展进行预测和分析，从而提高疾病防控和治疗的效率。该系统主要包括数据收集与处理、模型训练与评估、以及预测结果展示等模块。|`14⭐`|
@@ -34,7 +34,7 @@
 ## Recent Updates
 |Project|Description|Last Update|
 |:--|:--|:--|
-|[loks666 (fork)](https://github.com/loks666/loks666)|Automatically update your GitHub profile with GitHub Actions.|![2025-09-09 17:17:53](https://img.shields.io/badge/2025--09--09-17%3A17%3A53-brightgreen?style=flat-square)|
+|[loks666 (fork)](https://github.com/loks666/loks666)|Automatically update your GitHub profile with GitHub Actions.|![2025-09-10 17:17:18](https://img.shields.io/badge/2025--09--10-17%3A17%3A18-brightgreen?style=flat-square)|
 |[get_jobs](https://github.com/loks666/get_jobs)|💼【AI找工作助手】全平台自动投简历脚本：(boss、前程无忧、猎聘、拉勾、智联招聘)|![2025-09-09 00:10:14](https://img.shields.io/badge/2025--09--09-00%3A10%3A14-brightgreen?style=flat-square)|
 |[idm_crack](https://github.com/loks666/idm_crack)|This is a repository for backing up idm crack files，这是一个备份IDM破解文件的仓库|![2025-08-20 10:45:19](https://img.shields.io/badge/2025--08--20-10%3A45%3A19-brightgreen?style=flat-square)|
 |[blogSync](https://github.com/loks666/blogSync)|一键同步文章到多个内容平台，支持今日头条、WordPress、知乎、简书、掘金、CSDN、typecho各大平台，一次发布，多平台同步发布。解放个人生产力|![2025-08-11 14:54:20](https://img.shields.io/badge/2025--08--11-14%3A54%3A20-brightgreen?style=flat-square)|
@@ -46,4 +46,4 @@
 |[pacman-engine](https://github.com/loks666/pacman-engine)|pacman agent|![2025-02-27 06:20:42](https://img.shields.io/badge/2025--02--27-06%3A20%3A42-brightgreen?style=flat-square)|
 
 
-*Last updated on: 2025-09-11 01:17:17*
+*Last updated on: 2025-09-12 01:17:41*
