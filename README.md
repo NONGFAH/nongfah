@@ -1,17 +1,17 @@
 ## Abstract
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username=loks666&show_icons=true&hide_border=true&v=20251016011846" alt="loks666's Github Stats" width="58%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=loks666&layout=compact&hide_border=true&langs_count=10&v=20251016011846" alt="loks666's Top Langs" width="37%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=loks666&show_icons=true&hide_border=true&v=20251017011907" alt="loks666's Github Stats" width="58%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=loks666&layout=compact&hide_border=true&langs_count=10&v=20251017011907" alt="loks666's Top Langs" width="37%" />
 </p>
 
 <!-- 活跃度图 -->
 <p>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=loks666&theme=github&v=20251016011846" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=loks666&theme=github&v=20251017011907" width="100%" />
 </p>
 
 <!-- 奖杯墙 -->
 <p>
-  <img src="https://github-profile-trophy.vercel.app/?username=loks666&theme=gruvbox&row=1&column=7&v=20251016011846" width="100%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=loks666&theme=gruvbox&row=1&column=7&v=20251017011907" width="100%" />
 </p>
 
 ![skills](https://skillicons.dev/icons?i=c,cpp,go,py,html,css,js,nodejs,java,md,pytorch,tensorflow,flask,fastapi,express,qt,react,cmake,docker,git,linux,nginx,mysql,redis,sqlite,githubactions,heroku,vercel,visualstudio,vscode)
@@ -19,7 +19,7 @@
 ## Top Projects
 |Project|Description|Stars|
 |:--|:--|:--|
-|[get_jobs](https://github.com/loks666/get_jobs)|💼【AI找工作助手】全平台自动投简历脚本：(boss、前程无忧、猎聘、拉勾、智联招聘)|`4459⭐`|
+|[get_jobs](https://github.com/loks666/get_jobs)|💼【AI找工作助手】全平台自动投简历脚本：(boss、前程无忧、猎聘、拉勾、智联招聘)|`4517⭐`|
 |[niubaide_im](https://github.com/loks666/niubaide_im)|牛掰的即时通讯(Uniapp + SpringBoot + Netty)|`30⭐`|
 |[webchat](https://github.com/loks666/webchat)|一个聊天应用|`22⭐`|
 |[disease-prediction](https://github.com/loks666/disease-prediction)|疾病预测分析系统旨在利用现代数据分析技术和机器学习算法，帮助医疗机构和研究人员对疾病的发生和发展进行预测和分析，从而提高疾病防控和治疗的效率。该系统主要包括数据收集与处理、模型训练与评估、以及预测结果展示等模块。|`15⭐`|
@@ -34,7 +34,7 @@
 ## Recent Updates
 |Project|Description|Last Update|
 |:--|:--|:--|
-|[loks666](https://github.com/loks666/loks666)|Automatically update your GitHub profile with GitHub Actions.|![2025-10-14 17:17:32](https://img.shields.io/badge/2025--10--14-17%3A17%3A32-brightgreen?style=flat-square)|
+|[loks666](https://github.com/loks666/loks666)|Automatically update your GitHub profile with GitHub Actions.|![2025-10-15 17:18:47](https://img.shields.io/badge/2025--10--15-17%3A18%3A47-brightgreen?style=flat-square)|
 |[get_jobs](https://github.com/loks666/get_jobs)|💼【AI找工作助手】全平台自动投简历脚本：(boss、前程无忧、猎聘、拉勾、智联招聘)|![2025-10-10 15:55:33](https://img.shields.io/badge/2025--10--10-15%3A55%3A33-brightgreen?style=flat-square)|
 |[zhipurag](https://github.com/loks666/zhipurag)||![2025-10-10 06:24:29](https://img.shields.io/badge/2025--10--10-06%3A24%3A29-brightgreen?style=flat-square)|
 |[ragflow-fix-ocr-gpu-memory](https://github.com/loks666/ragflow-fix-ocr-gpu-memory)|bug explain|![2025-10-10 03:00:58](https://img.shields.io/badge/2025--10--10-03%3A00%3A58-brightgreen?style=flat-square)|
@@ -46,4 +46,4 @@
 |[anyrouter-autolog (fork)](https://github.com/loks666/anyrouter-autolog)|AnyRouter多账号签到。|![2025-09-12 11:44:43](https://img.shields.io/badge/2025--09--12-11%3A44%3A43-brightgreen?style=flat-square)|
 
 
-*Last updated on: 2025-10-16 01:18:46*
+*Last updated on: 2025-10-17 01:19:07*
