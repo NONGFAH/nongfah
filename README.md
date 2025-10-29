@@ -1,17 +1,17 @@
 ## Abstract
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username=NONGFAH&show_icons=true&hide_border=true&v=20251029162949" alt="NONGFAH's Github Stats" width="58%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NONGFAH&layout=compact&hide_border=true&langs_count=10&v=20251029162949" alt="NONGFAH's Top Langs" width="37%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=NONGFAH&show_icons=true&hide_border=true&v=20251030010847" alt="NONGFAH's Github Stats" width="58%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NONGFAH&layout=compact&hide_border=true&langs_count=10&v=20251030010847" alt="NONGFAH's Top Langs" width="37%" />
 </p>
 
 <!-- 活跃度图 -->
 <p>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=NONGFAH&theme=github&v=20251029162949" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=NONGFAH&theme=github&v=20251030010847" width="100%" />
 </p>
 
 <!-- 奖杯墙 -->
 <p>
-  <img src="https://github-profile-trophy.vercel.app/?username=NONGFAH&theme=gruvbox&row=1&column=7&v=20251029162949" width="100%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=NONGFAH&theme=gruvbox&row=1&column=7&v=20251030010847" width="100%" />
 </p>
 
 ![skills](https://skillicons.dev/icons?i=c,cpp,go,py,html,css,js,nodejs,java,md,pytorch,tensorflow,flask,fastapi,express,qt,react,cmake,docker,git,linux,nginx,mysql,redis,sqlite,githubactions,heroku,vercel,visualstudio,vscode)
@@ -34,7 +34,7 @@
 ## Recent Updates
 |Project|Description|Last Update|
 |:--|:--|:--|
-|[nongfah](https://github.com/NONGFAH/nongfah)||![2025-10-29 08:22:01](https://img.shields.io/badge/2025--10--29-08%3A22%3A01-brightgreen?style=flat-square)|
+|[nongfah](https://github.com/NONGFAH/nongfah)||![2025-10-29 08:29:50](https://img.shields.io/badge/2025--10--29-08%3A29%3A50-brightgreen?style=flat-square)|
 |[weapp-vite-demo](https://github.com/NONGFAH/weapp-vite-demo)||![2025-07-25 06:13:21](https://img.shields.io/badge/2025--07--25-06%3A13%3A21-brightgreen?style=flat-square)|
 |[pdfcpu (fork)](https://github.com/NONGFAH/pdfcpu)|A PDF processor written in Go.|![2025-06-22 23:35:12](https://img.shields.io/badge/2025--06--22-23%3A35%3A12-brightgreen?style=flat-square)|
 |[wireguard-go (fork)](https://github.com/NONGFAH/wireguard-go)|Mirror only. Official repository is at https://git.zx2c4.com/wireguard-go|![2025-05-21 23:45:10](https://img.shields.io/badge/2025--05--21-23%3A45%3A10-brightgreen?style=flat-square)|
@@ -46,4 +46,4 @@
 |[turboacc (fork)](https://github.com/NONGFAH/turboacc)|一个适用于官方openwrt(22.03/23.05) firewall4的turboacc|![2024-10-13 01:46:03](https://img.shields.io/badge/2024--10--13-01%3A46%3A03-brightgreen?style=flat-square)|
 
 
-*Last updated on: 2025-10-29 16:29:49*
+*Last updated on: 2025-10-30 01:08:47*
