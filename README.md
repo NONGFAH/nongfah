@@ -1,17 +1,17 @@
 ## Abstract
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username=NONGFAH&show_icons=true&hide_border=true&v=20251106010919" alt="NONGFAH's Github Stats" width="58%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NONGFAH&layout=compact&hide_border=true&langs_count=10&v=20251106010919" alt="NONGFAH's Top Langs" width="37%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=NONGFAH&show_icons=true&hide_border=true&v=20251107011035" alt="NONGFAH's Github Stats" width="58%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NONGFAH&layout=compact&hide_border=true&langs_count=10&v=20251107011035" alt="NONGFAH's Top Langs" width="37%" />
 </p>
 
 <!-- 活跃度图 -->
 <p>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=NONGFAH&theme=github&v=20251106010919" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=NONGFAH&theme=github&v=20251107011035" width="100%" />
 </p>
 
 <!-- 奖杯墙 -->
 <p>
-  <img src="https://github-profile-trophy.vercel.app/?username=NONGFAH&theme=gruvbox&row=1&column=7&v=20251106010919" width="100%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=NONGFAH&theme=gruvbox&row=1&column=7&v=20251107011035" width="100%" />
 </p>
 
 ![skills](https://skillicons.dev/icons?i=c,cpp,go,py,html,css,js,nodejs,java,md,pytorch,tensorflow,flask,fastapi,express,qt,react,cmake,docker,git,linux,nginx,mysql,redis,sqlite,githubactions,heroku,vercel,visualstudio,vscode)
@@ -34,7 +34,7 @@
 ## Recent Updates
 |Project|Description|Last Update|
 |:--|:--|:--|
-|[nongfah](https://github.com/NONGFAH/nongfah)||![2025-11-03 17:01:25](https://img.shields.io/badge/2025--11--03-17%3A01%3A25-brightgreen?style=flat-square)|
+|[nongfah](https://github.com/NONGFAH/nongfah)||![2025-11-05 17:09:20](https://img.shields.io/badge/2025--11--05-17%3A09%3A20-brightgreen?style=flat-square)|
 |[weapp-vite-demo](https://github.com/NONGFAH/weapp-vite-demo)||![2025-07-25 06:13:21](https://img.shields.io/badge/2025--07--25-06%3A13%3A21-brightgreen?style=flat-square)|
 |[fossflow-lib (fork)](https://github.com/NONGFAH/fossflow-lib)|Contains the fossflow npm package that is used in FossFlow, adapted from Isoflow|![2025-07-19 19:23:21](https://img.shields.io/badge/2025--07--19-19%3A23%3A21-brightgreen?style=flat-square)|
 |[pdfcpu (fork)](https://github.com/NONGFAH/pdfcpu)|A PDF processor written in Go.|![2025-06-22 23:35:12](https://img.shields.io/badge/2025--06--22-23%3A35%3A12-brightgreen?style=flat-square)|
@@ -46,4 +46,4 @@
 |[ecloud_computer_auto_boot (fork)](https://github.com/NONGFAH/ecloud_computer_auto_boot)|移动云电脑自动开机|![2024-11-07 17:24:12](https://img.shields.io/badge/2024--11--07-17%3A24%3A12-brightgreen?style=flat-square)|
 
 
-*Last updated on: 2025-11-06 01:09:19*
+*Last updated on: 2025-11-07 01:10:35*
