@@ -1,17 +1,17 @@
 ## Abstract
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username=NONGFAH&show_icons=true&hide_border=true&v=20251115010114" alt="NONGFAH's Github Stats" width="58%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NONGFAH&layout=compact&hide_border=true&langs_count=10&v=20251115010114" alt="NONGFAH's Top Langs" width="37%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=NONGFAH&show_icons=true&hide_border=true&v=20251116010102" alt="NONGFAH's Github Stats" width="58%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NONGFAH&layout=compact&hide_border=true&langs_count=10&v=20251116010102" alt="NONGFAH's Top Langs" width="37%" />
 </p>
 
 <!-- 活跃度图 -->
 <p>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=NONGFAH&theme=github&v=20251115010114" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=NONGFAH&theme=github&v=20251116010102" width="100%" />
 </p>
 
 <!-- 奖杯墙 -->
 <p>
-  <img src="https://github-profile-trophy.vercel.app/?username=NONGFAH&theme=gruvbox&row=1&column=7&v=20251115010114" width="100%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=NONGFAH&theme=gruvbox&row=1&column=7&v=20251116010102" width="100%" />
 </p>
 
 ![skills](https://skillicons.dev/icons?i=c,cpp,go,py,html,css,js,nodejs,java,md,pytorch,tensorflow,flask,fastapi,express,qt,react,cmake,docker,git,linux,nginx,mysql,redis,sqlite,githubactions,heroku,vercel,visualstudio,vscode)
@@ -34,7 +34,7 @@
 ## Recent Updates
 |Project|Description|Last Update|
 |:--|:--|:--|
-|[nongfah](https://github.com/NONGFAH/nongfah)||![2025-11-13 17:10:19](https://img.shields.io/badge/2025--11--13-17%3A10%3A19-brightgreen?style=flat-square)|
+|[nongfah](https://github.com/NONGFAH/nongfah)||![2025-11-14 17:01:15](https://img.shields.io/badge/2025--11--14-17%3A01%3A15-brightgreen?style=flat-square)|
 |[ChinaTextbook (fork)](https://github.com/NONGFAH/ChinaTextbook)|所有小初高、大学PDF教材。|![2025-10-18 13:39:24](https://img.shields.io/badge/2025--10--18-13%3A39%3A24-brightgreen?style=flat-square)|
 |[weapp-vite-demo](https://github.com/NONGFAH/weapp-vite-demo)||![2025-07-25 06:13:21](https://img.shields.io/badge/2025--07--25-06%3A13%3A21-brightgreen?style=flat-square)|
 |[fossflow-lib (fork)](https://github.com/NONGFAH/fossflow-lib)|Contains the fossflow npm package that is used in FossFlow, adapted from Isoflow|![2025-07-19 19:23:21](https://img.shields.io/badge/2025--07--19-19%3A23%3A21-brightgreen?style=flat-square)|
@@ -46,4 +46,4 @@
 |[athena-led](https://github.com/NONGFAH/athena-led)|jdCloud ax6600 led screen ctrl bin|![2024-11-27 02:42:56](https://img.shields.io/badge/2024--11--27-02%3A42%3A56-brightgreen?style=flat-square)|
 
 
-*Last updated on: 2025-11-15 01:01:14*
+*Last updated on: 2025-11-16 01:01:02*
