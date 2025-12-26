@@ -1,17 +1,17 @@
 ## Abstract
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username=NONGFAH&show_icons=true&hide_border=true&v=20251226010805" alt="NONGFAH's Github Stats" width="58%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NONGFAH&layout=compact&hide_border=true&langs_count=10&v=20251226010805" alt="NONGFAH's Top Langs" width="37%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=NONGFAH&show_icons=true&hide_border=true&v=20251227010106" alt="NONGFAH's Github Stats" width="58%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NONGFAH&layout=compact&hide_border=true&langs_count=10&v=20251227010106" alt="NONGFAH's Top Langs" width="37%" />
 </p>
 
 <!-- 活跃度图 -->
 <p>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=NONGFAH&theme=github&v=20251226010805" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=NONGFAH&theme=github&v=20251227010106" width="100%" />
 </p>
 
 <!-- 奖杯墙 -->
 <p>
-  <img src="https://github-profile-trophy.vercel.app/?username=NONGFAH&theme=gruvbox&row=1&column=7&v=20251226010805" width="100%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=NONGFAH&theme=gruvbox&row=1&column=7&v=20251227010106" width="100%" />
 </p>
 
 ![skills](https://skillicons.dev/icons?i=c,cpp,go,py,html,css,js,nodejs,java,md,pytorch,tensorflow,flask,fastapi,express,qt,react,cmake,docker,git,linux,nginx,mysql,redis,sqlite,githubactions,heroku,vercel,visualstudio,vscode)
@@ -22,8 +22,8 @@
 |[luci-app-athena-led](https://github.com/NONGFAH/luci-app-athena-led)|jdCloud ax6600 led screen ctrl|`50⭐`|
 |[athena-led](https://github.com/NONGFAH/athena-led)|jdCloud ax6600 led screen ctrl bin|`8⭐`|
 |[go-hook (fork)](https://github.com/NONGFAH/go-hook)|`go-hook`provides low level keyboard and mouse hook for Windows.|`1⭐`|
-|[Awesome-Document-Image-Rectification (fork)](https://github.com/NONGFAH/Awesome-Document-Image-Rectification)|A comprehensive list of awesome document image rectification papers.|`0⭐`|
 |[nongfah](https://github.com/NONGFAH/nongfah)||`0⭐`|
+|[Awesome-Document-Image-Rectification (fork)](https://github.com/NONGFAH/Awesome-Document-Image-Rectification)|A comprehensive list of awesome document image rectification papers.|`0⭐`|
 |[Mybatis-PageHelper (fork)](https://github.com/NONGFAH/Mybatis-PageHelper)|Mybatis通用分页插件|`0⭐`|
 |[ChinaTextbook (fork)](https://github.com/NONGFAH/ChinaTextbook)|所有小初高、大学PDF教材。|`0⭐`|
 |[fossflow-lib (fork)](https://github.com/NONGFAH/fossflow-lib)|Contains the fossflow npm package that is used in FossFlow, adapted from Isoflow|`0⭐`|
@@ -34,7 +34,7 @@
 ## Recent Updates
 |Project|Description|Last Update|
 |:--|:--|:--|
-|[nongfah](https://github.com/NONGFAH/nongfah)||![2025-12-24 17:00:59](https://img.shields.io/badge/2025--12--24-17%3A00%3A59-brightgreen?style=flat-square)|
+|[nongfah](https://github.com/NONGFAH/nongfah)||![2025-12-25 17:08:06](https://img.shields.io/badge/2025--12--25-17%3A08%3A06-brightgreen?style=flat-square)|
 |[ChinaTextbook (fork)](https://github.com/NONGFAH/ChinaTextbook)|所有小初高、大学PDF教材。|![2025-10-18 13:39:24](https://img.shields.io/badge/2025--10--18-13%3A39%3A24-brightgreen?style=flat-square)|
 |[Awesome-Document-Image-Rectification (fork)](https://github.com/NONGFAH/Awesome-Document-Image-Rectification)|A comprehensive list of awesome document image rectification papers.|![2025-08-16 23:38:11](https://img.shields.io/badge/2025--08--16-23%3A38%3A11-brightgreen?style=flat-square)|
 |[weapp-vite-demo](https://github.com/NONGFAH/weapp-vite-demo)||![2025-07-25 06:13:21](https://img.shields.io/badge/2025--07--25-06%3A13%3A21-brightgreen?style=flat-square)|
@@ -46,4 +46,4 @@
 |[linux-wifi-hotspot (fork)](https://github.com/NONGFAH/linux-wifi-hotspot)|Feature-rich wifi hotspot creator for Linux which provides both GUI and command-line interface. It is also able to create a hotspot using the same wifi card which is connected to an AP already ( Similar to Windows 10).|![2025-01-24 01:18:53](https://img.shields.io/badge/2025--01--24-01%3A18%3A53-brightgreen?style=flat-square)|
 
 
-*Last updated on: 2025-12-26 01:08:05*
+*Last updated on: 2025-12-27 01:01:06*
