@@ -1,17 +1,17 @@
 ## Abstract
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username=NONGFAH&show_icons=true&hide_border=true&v=20260131012307" alt="NONGFAH's Github Stats" width="58%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NONGFAH&layout=compact&hide_border=true&langs_count=10&v=20260131012307" alt="NONGFAH's Top Langs" width="37%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=NONGFAH&show_icons=true&hide_border=true&v=20260201011246" alt="NONGFAH's Github Stats" width="58%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NONGFAH&layout=compact&hide_border=true&langs_count=10&v=20260201011246" alt="NONGFAH's Top Langs" width="37%" />
 </p>
 
 <!-- 活跃度图 -->
 <p>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=NONGFAH&theme=github&v=20260131012307" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=NONGFAH&theme=github&v=20260201011246" width="100%" />
 </p>
 
 <!-- 奖杯墙 -->
 <p>
-  <img src="https://github-profile-trophy.vercel.app/?username=NONGFAH&theme=gruvbox&row=1&column=7&v=20260131012307" width="100%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=NONGFAH&theme=gruvbox&row=1&column=7&v=20260201011246" width="100%" />
 </p>
 
 ![skills](https://skillicons.dev/icons?i=c,cpp,go,py,html,css,js,nodejs,java,md,pytorch,tensorflow,flask,fastapi,express,qt,react,cmake,docker,git,linux,nginx,mysql,redis,sqlite,githubactions,heroku,vercel,visualstudio,vscode)
@@ -19,7 +19,7 @@
 ## Top Projects
 |Project|Description|Stars|
 |:--|:--|:--|
-|[luci-app-athena-led](https://github.com/NONGFAH/luci-app-athena-led)|jdCloud ax6600 led screen ctrl|`53⭐`|
+|[luci-app-athena-led](https://github.com/NONGFAH/luci-app-athena-led)|jdCloud ax6600 led screen ctrl|`54⭐`|
 |[athena-led](https://github.com/NONGFAH/athena-led)|jdCloud ax6600 led screen ctrl bin|`8⭐`|
 |[nmk](https://github.com/NONGFAH/nmk)|network mouse and keyboard|`1⭐`|
 |[go-hook (fork)](https://github.com/NONGFAH/go-hook)|`go-hook`provides low level keyboard and mouse hook for Windows.|`1⭐`|
@@ -34,7 +34,7 @@
 ## Recent Updates
 |Project|Description|Last Update|
 |:--|:--|:--|
-|[nongfah](https://github.com/NONGFAH/nongfah)||![2026-01-29 17:27:01](https://img.shields.io/badge/2026--01--29-17%3A27%3A01-brightgreen?style=flat-square)|
+|[nongfah](https://github.com/NONGFAH/nongfah)||![2026-01-30 17:23:09](https://img.shields.io/badge/2026--01--30-17%3A23%3A09-brightgreen?style=flat-square)|
 |[ChinaTextbook (fork)](https://github.com/NONGFAH/ChinaTextbook)|所有小初高、大学PDF教材。|![2025-10-18 13:39:24](https://img.shields.io/badge/2025--10--18-13%3A39%3A24-brightgreen?style=flat-square)|
 |[Awesome-Document-Image-Rectification (fork)](https://github.com/NONGFAH/Awesome-Document-Image-Rectification)|A comprehensive list of awesome document image rectification papers.|![2025-08-16 23:38:11](https://img.shields.io/badge/2025--08--16-23%3A38%3A11-brightgreen?style=flat-square)|
 |[weapp-vite-demo](https://github.com/NONGFAH/weapp-vite-demo)||![2025-07-25 06:13:21](https://img.shields.io/badge/2025--07--25-06%3A13%3A21-brightgreen?style=flat-square)|
@@ -46,4 +46,4 @@
 |[linux-wifi-hotspot (fork)](https://github.com/NONGFAH/linux-wifi-hotspot)|Feature-rich wifi hotspot creator for Linux which provides both GUI and command-line interface. It is also able to create a hotspot using the same wifi card which is connected to an AP already ( Similar to Windows 10).|![2025-01-24 01:18:53](https://img.shields.io/badge/2025--01--24-01%3A18%3A53-brightgreen?style=flat-square)|
 
 
-*Last updated on: 2026-01-31 01:23:07*
+*Last updated on: 2026-02-01 01:12:46*
