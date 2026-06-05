@@ -1,17 +1,17 @@
 ## Abstract
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username=NONGFAH&show_icons=true&hide_border=true&v=20260605030840" alt="NONGFAH's Github Stats" width="58%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NONGFAH&layout=compact&hide_border=true&langs_count=10&v=20260605030840" alt="NONGFAH's Top Langs" width="37%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=NONGFAH&show_icons=true&hide_border=true&v=20260606025225" alt="NONGFAH's Github Stats" width="58%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NONGFAH&layout=compact&hide_border=true&langs_count=10&v=20260606025225" alt="NONGFAH's Top Langs" width="37%" />
 </p>
 
 <!-- 活跃度图 -->
 <p>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=NONGFAH&theme=github&v=20260605030840" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=NONGFAH&theme=github&v=20260606025225" width="100%" />
 </p>
 
 <!-- 奖杯墙 -->
 <p>
-  <img src="https://github-profile-trophy.vercel.app/?username=NONGFAH&theme=gruvbox&row=1&column=7&v=20260605030840" width="100%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=NONGFAH&theme=gruvbox&row=1&column=7&v=20260606025225" width="100%" />
 </p>
 
 ![skills](https://skillicons.dev/icons?i=c,cpp,go,py,html,css,js,nodejs,java,md,pytorch,tensorflow,flask,fastapi,express,qt,react,cmake,docker,git,linux,nginx,mysql,redis,sqlite,githubactions,heroku,vercel,visualstudio,vscode)
@@ -34,7 +34,7 @@
 ## Recent Updates
 |Project|Description|Last Update|
 |:--|:--|:--|
-|[nongfah](https://github.com/NONGFAH/nongfah)||![2026-06-03 20:11:14](https://img.shields.io/badge/2026--06--03-20%3A11%3A14-brightgreen?style=flat-square)|
+|[nongfah](https://github.com/NONGFAH/nongfah)||![2026-06-04 19:08:41](https://img.shields.io/badge/2026--06--04-19%3A08%3A41-brightgreen?style=flat-square)|
 |[ztt](https://github.com/NONGFAH/ztt)|ZeroTier tools|![2026-06-02 04:20:53](https://img.shields.io/badge/2026--06--02-04%3A20%3A53-brightgreen?style=flat-square)|
 |[ChinaTextbook (fork)](https://github.com/NONGFAH/ChinaTextbook)|所有小初高、大学PDF教材。|![2025-10-18 13:39:24](https://img.shields.io/badge/2025--10--18-13%3A39%3A24-brightgreen?style=flat-square)|
 |[Awesome-Document-Image-Rectification (fork)](https://github.com/NONGFAH/Awesome-Document-Image-Rectification)|A comprehensive list of awesome document image rectification papers.|![2025-08-16 23:38:11](https://img.shields.io/badge/2025--08--16-23%3A38%3A11-brightgreen?style=flat-square)|
@@ -46,4 +46,4 @@
 |[ZeroTierOne (fork)](https://github.com/NONGFAH/ZeroTierOne)|A Smart Ethernet Switch for Earth|![2025-02-14 02:22:54](https://img.shields.io/badge/2025--02--14-02%3A22%3A54-brightgreen?style=flat-square)|
 
 
-*Last updated on: 2026-06-05 03:08:40*
+*Last updated on: 2026-06-06 02:52:25*
