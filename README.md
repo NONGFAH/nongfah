@@ -1,17 +1,17 @@
 ## Abstract
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username=NONGFAH&show_icons=true&hide_border=true&v=20260711021328" alt="NONGFAH's Github Stats" width="58%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NONGFAH&layout=compact&hide_border=true&langs_count=10&v=20260711021328" alt="NONGFAH's Top Langs" width="37%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=NONGFAH&show_icons=true&hide_border=true&v=20260712014234" alt="NONGFAH's Github Stats" width="58%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NONGFAH&layout=compact&hide_border=true&langs_count=10&v=20260712014234" alt="NONGFAH's Top Langs" width="37%" />
 </p>
 
 <!-- 活跃度图 -->
 <p>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=NONGFAH&theme=github&v=20260711021328" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=NONGFAH&theme=github&v=20260712014234" width="100%" />
 </p>
 
 <!-- 奖杯墙 -->
 <p>
-  <img src="https://github-profile-trophy.vercel.app/?username=NONGFAH&theme=gruvbox&row=1&column=7&v=20260711021328" width="100%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=NONGFAH&theme=gruvbox&row=1&column=7&v=20260712014234" width="100%" />
 </p>
 
 ![skills](https://skillicons.dev/icons?i=c,cpp,go,py,html,css,js,nodejs,java,md,pytorch,tensorflow,flask,fastapi,express,qt,react,cmake,docker,git,linux,nginx,mysql,redis,sqlite,githubactions,heroku,vercel,visualstudio,vscode)
@@ -19,12 +19,12 @@
 ## Top Projects
 |Project|Description|Stars|
 |:--|:--|:--|
-|[luci-app-athena-led](https://github.com/NONGFAH/luci-app-athena-led)|jdCloud ax6600 led screen ctrl|`58⭐`|
+|[luci-app-athena-led](https://github.com/NONGFAH/luci-app-athena-led)|jdCloud ax6600 led screen ctrl|`59⭐`|
 |[athena-led](https://github.com/NONGFAH/athena-led)|jdCloud ax6600 led screen ctrl bin|`9⭐`|
 |[nmk](https://github.com/NONGFAH/nmk)|network mouse and keyboard|`1⭐`|
 |[go-hook (fork)](https://github.com/NONGFAH/go-hook)|`go-hook`provides low level keyboard and mouse hook for Windows.|`1⭐`|
-|[ZeroTierOne (fork)](https://github.com/NONGFAH/ZeroTierOne)|A Smart Ethernet Switch for Earth|`0⭐`|
 |[nongfah](https://github.com/NONGFAH/nongfah)||`0⭐`|
+|[ZeroTierOne (fork)](https://github.com/NONGFAH/ZeroTierOne)|A Smart Ethernet Switch for Earth|`0⭐`|
 |[ztt](https://github.com/NONGFAH/ztt)|ZeroTier tools|`0⭐`|
 |[Awesome-Document-Image-Rectification (fork)](https://github.com/NONGFAH/Awesome-Document-Image-Rectification)|A comprehensive list of awesome document image rectification papers.|`0⭐`|
 |[Mybatis-PageHelper (fork)](https://github.com/NONGFAH/Mybatis-PageHelper)|Mybatis通用分页插件|`0⭐`|
@@ -34,8 +34,8 @@
 ## Recent Updates
 |Project|Description|Last Update|
 |:--|:--|:--|
+|[nongfah](https://github.com/NONGFAH/nongfah)||![2026-07-10 18:13:30](https://img.shields.io/badge/2026--07--10-18%3A13%3A30-brightgreen?style=flat-square)|
 |[ZeroTierOne (fork)](https://github.com/NONGFAH/ZeroTierOne)|A Smart Ethernet Switch for Earth|![2026-07-09 03:58:50](https://img.shields.io/badge/2026--07--09-03%3A58%3A50-brightgreen?style=flat-square)|
-|[nongfah](https://github.com/NONGFAH/nongfah)||![2026-07-08 18:10:24](https://img.shields.io/badge/2026--07--08-18%3A10%3A24-brightgreen?style=flat-square)|
 |[ztt](https://github.com/NONGFAH/ztt)|ZeroTier tools|![2026-06-02 04:20:53](https://img.shields.io/badge/2026--06--02-04%3A20%3A53-brightgreen?style=flat-square)|
 |[ChinaTextbook (fork)](https://github.com/NONGFAH/ChinaTextbook)|所有小初高、大学PDF教材。|![2025-10-18 13:39:24](https://img.shields.io/badge/2025--10--18-13%3A39%3A24-brightgreen?style=flat-square)|
 |[Awesome-Document-Image-Rectification (fork)](https://github.com/NONGFAH/Awesome-Document-Image-Rectification)|A comprehensive list of awesome document image rectification papers.|![2025-08-16 23:38:11](https://img.shields.io/badge/2025--08--16-23%3A38%3A11-brightgreen?style=flat-square)|
@@ -46,4 +46,4 @@
 |[luci-app-athena-led](https://github.com/NONGFAH/luci-app-athena-led)|jdCloud ax6600 led screen ctrl|![2025-02-14 08:32:50](https://img.shields.io/badge/2025--02--14-08%3A32%3A50-brightgreen?style=flat-square)|
 
 
-*Last updated on: 2026-07-11 02:13:28*
+*Last updated on: 2026-07-12 01:42:34*
