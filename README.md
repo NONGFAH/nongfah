@@ -1,17 +1,17 @@
 ## Abstract
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username=NONGFAH&show_icons=true&hide_border=true&v=20260718015307" alt="NONGFAH's Github Stats" width="58%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NONGFAH&layout=compact&hide_border=true&langs_count=10&v=20260718015307" alt="NONGFAH's Top Langs" width="37%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=NONGFAH&show_icons=true&hide_border=true&v=20260719014313" alt="NONGFAH's Github Stats" width="58%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NONGFAH&layout=compact&hide_border=true&langs_count=10&v=20260719014313" alt="NONGFAH's Top Langs" width="37%" />
 </p>
 
 <!-- 活跃度图 -->
 <p>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=NONGFAH&theme=github&v=20260718015307" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=NONGFAH&theme=github&v=20260719014313" width="100%" />
 </p>
 
 <!-- 奖杯墙 -->
 <p>
-  <img src="https://github-profile-trophy.vercel.app/?username=NONGFAH&theme=gruvbox&row=1&column=7&v=20260718015307" width="100%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=NONGFAH&theme=gruvbox&row=1&column=7&v=20260719014313" width="100%" />
 </p>
 
 ![skills](https://skillicons.dev/icons?i=c,cpp,go,py,html,css,js,nodejs,java,md,pytorch,tensorflow,flask,fastapi,express,qt,react,cmake,docker,git,linux,nginx,mysql,redis,sqlite,githubactions,heroku,vercel,visualstudio,vscode)
@@ -34,7 +34,7 @@
 ## Recent Updates
 |Project|Description|Last Update|
 |:--|:--|:--|
-|[nongfah](https://github.com/NONGFAH/nongfah)||![2026-07-16 17:57:09](https://img.shields.io/badge/2026--07--16-17%3A57%3A09-brightgreen?style=flat-square)|
+|[nongfah](https://github.com/NONGFAH/nongfah)||![2026-07-17 17:53:08](https://img.shields.io/badge/2026--07--17-17%3A53%3A08-brightgreen?style=flat-square)|
 |[ZeroTierOne (fork)](https://github.com/NONGFAH/ZeroTierOne)|A Smart Ethernet Switch for Earth|![2026-07-09 03:58:50](https://img.shields.io/badge/2026--07--09-03%3A58%3A50-brightgreen?style=flat-square)|
 |[ztt](https://github.com/NONGFAH/ztt)|ZeroTier tools|![2026-06-02 04:20:53](https://img.shields.io/badge/2026--06--02-04%3A20%3A53-brightgreen?style=flat-square)|
 |[ChinaTextbook (fork)](https://github.com/NONGFAH/ChinaTextbook)|所有小初高、大学PDF教材。|![2025-10-18 13:39:24](https://img.shields.io/badge/2025--10--18-13%3A39%3A24-brightgreen?style=flat-square)|
@@ -46,4 +46,4 @@
 |[luci-app-athena-led](https://github.com/NONGFAH/luci-app-athena-led)|jdCloud ax6600 led screen ctrl|![2025-02-14 08:32:50](https://img.shields.io/badge/2025--02--14-08%3A32%3A50-brightgreen?style=flat-square)|
 
 
-*Last updated on: 2026-07-18 01:53:07*
+*Last updated on: 2026-07-19 01:43:13*
