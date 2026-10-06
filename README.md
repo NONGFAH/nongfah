@@ -1,17 +1,17 @@
 ## Abstract
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username=NONGFAH&show_icons=true&hide_border=true&v=20261006065620" alt="NONGFAH's Github Stats" width="58%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NONGFAH&layout=compact&hide_border=true&langs_count=10&v=20261006065620" alt="NONGFAH's Top Langs" width="37%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=NONGFAH&show_icons=true&hide_border=true&v=20261007051816" alt="NONGFAH's Github Stats" width="58%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NONGFAH&layout=compact&hide_border=true&langs_count=10&v=20261007051816" alt="NONGFAH's Top Langs" width="37%" />
 </p>
 
 <!-- 活跃度图 -->
 <p>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=NONGFAH&theme=github&v=20261006065620" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=NONGFAH&theme=github&v=20261007051816" width="100%" />
 </p>
 
 <!-- 奖杯墙 -->
 <p>
-  <img src="https://github-profile-trophy.vercel.app/?username=NONGFAH&theme=gruvbox&row=1&column=7&v=20261006065620" width="100%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=NONGFAH&theme=gruvbox&row=1&column=7&v=20261007051816" width="100%" />
 </p>
 
 ![skills](https://skillicons.dev/icons?i=c,cpp,go,py,html,css,js,nodejs,java,md,pytorch,tensorflow,flask,fastapi,express,qt,react,cmake,docker,git,linux,nginx,mysql,redis,sqlite,githubactions,heroku,vercel,visualstudio,vscode)
@@ -34,7 +34,7 @@
 ## Recent Updates
 |Project|Description|Last Update|
 |:--|:--|:--|
-|[nongfah](https://github.com/NONGFAH/nongfah)||![2026-10-04 19:49:29](https://img.shields.io/badge/2026--10--04-19%3A49%3A29-brightgreen?style=flat-square)|
+|[nongfah](https://github.com/NONGFAH/nongfah)||![2026-10-05 22:56:21](https://img.shields.io/badge/2026--10--05-22%3A56%3A21-brightgreen?style=flat-square)|
 |[ztjs](https://github.com/NONGFAH/ztjs)|SD-WAN over JavaScript|![2026-09-18 02:15:10](https://img.shields.io/badge/2026--09--18-02%3A15%3A10-brightgreen?style=flat-square)|
 |[ZeroTierOne (fork)](https://github.com/NONGFAH/ZeroTierOne)|A Smart Ethernet Switch for Earth|![2026-07-09 03:58:50](https://img.shields.io/badge/2026--07--09-03%3A58%3A50-brightgreen?style=flat-square)|
 |[ztt](https://github.com/NONGFAH/ztt)|ZeroTier tools|![2026-06-02 04:20:53](https://img.shields.io/badge/2026--06--02-04%3A20%3A53-brightgreen?style=flat-square)|
@@ -46,4 +46,4 @@
 |[wireguard-go (fork)](https://github.com/NONGFAH/wireguard-go)|Mirror only. Official repository is at https://git.zx2c4.com/wireguard-go|![2025-05-21 23:45:10](https://img.shields.io/badge/2025--05--21-23%3A45%3A10-brightgreen?style=flat-square)|
 
 
-*Last updated on: 2026-10-06 06:56:20*
+*Last updated on: 2026-10-07 05:18:16*
