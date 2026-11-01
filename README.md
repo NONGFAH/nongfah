@@ -1,17 +1,17 @@
 ## Abstract
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username=NONGFAH&show_icons=true&hide_border=true&v=20261101041939" alt="NONGFAH's Github Stats" width="58%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NONGFAH&layout=compact&hide_border=true&langs_count=10&v=20261101041939" alt="NONGFAH's Top Langs" width="37%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=NONGFAH&show_icons=true&hide_border=true&v=20261102045231" alt="NONGFAH's Github Stats" width="58%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NONGFAH&layout=compact&hide_border=true&langs_count=10&v=20261102045231" alt="NONGFAH's Top Langs" width="37%" />
 </p>
 
 <!-- 活跃度图 -->
 <p>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=NONGFAH&theme=github&v=20261101041939" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=NONGFAH&theme=github&v=20261102045231" width="100%" />
 </p>
 
 <!-- 奖杯墙 -->
 <p>
-  <img src="https://github-profile-trophy.vercel.app/?username=NONGFAH&theme=gruvbox&row=1&column=7&v=20261101041939" width="100%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=NONGFAH&theme=gruvbox&row=1&column=7&v=20261102045231" width="100%" />
 </p>
 
 ![skills](https://skillicons.dev/icons?i=c,cpp,go,py,html,css,js,nodejs,java,md,pytorch,tensorflow,flask,fastapi,express,qt,react,cmake,docker,git,linux,nginx,mysql,redis,sqlite,githubactions,heroku,vercel,visualstudio,vscode)
@@ -19,7 +19,7 @@
 ## Top Projects
 |Project|Description|Stars|
 |:--|:--|:--|
-|[luci-app-athena-led](https://github.com/NONGFAH/luci-app-athena-led)|jdCloud ax6600 led screen ctrl|`63⭐`|
+|[luci-app-athena-led](https://github.com/NONGFAH/luci-app-athena-led)|jdCloud ax6600 led screen ctrl|`62⭐`|
 |[athena-led](https://github.com/NONGFAH/athena-led)|jdCloud ax6600 led screen ctrl bin|`9⭐`|
 |[nmk](https://github.com/NONGFAH/nmk)|network mouse and keyboard|`1⭐`|
 |[go-hook (fork)](https://github.com/NONGFAH/go-hook)|`go-hook`provides low level keyboard and mouse hook for Windows.|`1⭐`|
@@ -34,7 +34,7 @@
 ## Recent Updates
 |Project|Description|Last Update|
 |:--|:--|:--|
-|[nongfah](https://github.com/NONGFAH/nongfah)||![2026-10-30 21:09:07](https://img.shields.io/badge/2026--10--30-21%3A09%3A07-brightgreen?style=flat-square)|
+|[nongfah](https://github.com/NONGFAH/nongfah)||![2026-10-31 20:19:40](https://img.shields.io/badge/2026--10--31-20%3A19%3A40-brightgreen?style=flat-square)|
 |[ztjs](https://github.com/NONGFAH/ztjs)|SD-WAN over JavaScript|![2026-09-18 02:15:10](https://img.shields.io/badge/2026--09--18-02%3A15%3A10-brightgreen?style=flat-square)|
 |[ZeroTierOne (fork)](https://github.com/NONGFAH/ZeroTierOne)|A Smart Ethernet Switch for Earth|![2026-07-09 03:58:50](https://img.shields.io/badge/2026--07--09-03%3A58%3A50-brightgreen?style=flat-square)|
 |[ztt](https://github.com/NONGFAH/ztt)|ZeroTier tools|![2026-06-02 04:20:53](https://img.shields.io/badge/2026--06--02-04%3A20%3A53-brightgreen?style=flat-square)|
@@ -46,4 +46,4 @@
 |[wireguard-go (fork)](https://github.com/NONGFAH/wireguard-go)|Mirror only. Official repository is at https://git.zx2c4.com/wireguard-go|![2025-05-21 23:45:10](https://img.shields.io/badge/2025--05--21-23%3A45%3A10-brightgreen?style=flat-square)|
 
 
-*Last updated on: 2026-11-01 04:19:39*
+*Last updated on: 2026-11-02 04:52:31*
